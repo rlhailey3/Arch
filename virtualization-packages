@@ -1,0 +1,8 @@
+qemu
+ovmf
+Libvirt
+ebtables
+dnsmasq
+bridge-utils
+dmidecode
+virt-manager
