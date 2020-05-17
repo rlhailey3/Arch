@@ -1,0 +1,13 @@
+base
+base-devel
+linux
+linux-firmware
+man-db
+man-pages
+fwupd
+vim
+git
+openssh
+intel/amd-ucode
+bash-completion
+tmux
