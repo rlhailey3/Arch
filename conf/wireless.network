@@ -1,0 +1,7 @@
+# /etc/systemd/network/wireless.network
+[Match]
+MACAddress=48:89:e7:9d:36:27
+
+[Network]
+DHCP=ipv4
+DNSSEC=false
