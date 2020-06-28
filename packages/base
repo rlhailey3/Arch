@@ -11,3 +11,4 @@ openssh
 intel/amd-ucode
 bash-completion
 tmux
+usbutils
