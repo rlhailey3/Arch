@@ -1,0 +1,86 @@
+{
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/window"],
+    "modules-center": ["clock"],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "cpu",
+        "memory",
+        "temperature",
+        "battery"
+    ],
+    "sway/workspaces": {
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": []
+        },
+        "disable-scroll": true,
+        "format": "{icon}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "all-outputs": true
+    },
+    "sway/window": {
+        "max-length": 50
+    },
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "{}% ",
+        "tooltip": false
+    },
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": false
+    },
+    "clock": {
+        "format": "{:%a, %d. %b  %H:%M}",
+        "tooltip": false
+    },
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "",
+        "format-disconnected": "⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "tooltip": false
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "tooltip": false
+    },
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    }
+}
