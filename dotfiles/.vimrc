@@ -70,7 +70,7 @@ endfunction
 endif
 
 " gruvbox "
-if filereadable("~/.vim/pack/default/start/gruvbox/README.md")
+if filereadable("/home/richard/.vim/pack/default/start/gruvbox/README.md")
     colorscheme gruvbox
     set termguicolors
 endif
