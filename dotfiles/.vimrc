@@ -70,8 +70,10 @@ endfunction
 endif
 
 " gruvbox "
-colorscheme gruvbox
-set termguicolors
+if filereadable("~/.vim/pack/default/start/gruvbox/README.md")
+    colorscheme gruvbox
+    set termguicolors
+endif
 
 " Powerline "
 set laststatus=2
