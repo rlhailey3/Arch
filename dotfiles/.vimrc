@@ -41,6 +41,12 @@ set textwidth=80
 " Coc related settings "
 
 if filereadable("/home/richard/.vim/pack/coc/start/coc.nvim-release/LICENSE.md")
+    
+    let g:coc_global_extensions=[
+        \ 'coc-clangd',
+        \ 'coc-java',
+        \ 'coc-json'
+        \]
 
     hi CocInfoFloat guifg=#000000 guibg=#FFFFFF
     hi CocErrorFloat guifg=#000000 guibg=#FFFFFF
@@ -68,6 +74,14 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 endif
+
+" Coc Extensions "
+
+let g:coc_global_extensions=[
+    \ 'coc-clangd',
+    \ 'coc-java',
+    \ 'coc-json'
+    \]
 
 " gruvbox "
 if filereadable("/home/richard/.vim/pack/default/start/gruvbox/README.md")
