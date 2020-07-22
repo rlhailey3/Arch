@@ -1,0 +1,6 @@
+[Match]
+MACAddress=e8:6a:64:f0:18:ad
+
+[Network]
+DHCP=ipv4
+DNSSEC=false
