@@ -2,5 +2,5 @@ nodejs
 npm
 jdk-openjdk
 valgrind
-kdgb
+gdb
 docker
