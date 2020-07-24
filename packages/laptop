@@ -1,5 +1,7 @@
+intel-ucode
+zip
+unzip
 throttled
 acpi
-iwd
 mesa
 vulkan-intel
