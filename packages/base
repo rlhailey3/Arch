@@ -6,11 +6,10 @@ man-db
 man-pages
 fwupd
 vim
-git
 openssh
-intel/amd-ucode
-bash-completion
 tmux
-usbutils
-zip
-unzip
+networkmanager
+firewalld
+udisks2
+packagekit
+pcp
