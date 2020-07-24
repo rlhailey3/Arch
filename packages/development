@@ -1,6 +1,8 @@
 nodejs
 npm
+git
+python
 jdk-openjdk
+clang
 valgrind
 gdb
-docker
