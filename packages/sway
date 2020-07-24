@@ -1,6 +1,5 @@
 ttf-ibm-plex
 ttf-dejavu
-alsa-utils
 pulseaudio
 sway
 swaylock
@@ -17,3 +16,4 @@ otf-font-awesome
 powerline
 powerline-fonts
 powerline-vim
+xorg-server-xwayland
