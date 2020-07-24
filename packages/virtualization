@@ -5,6 +5,5 @@ ebtables
 dnsmasq
 bridge-utils
 dmidecode
-virt-manager
 samba
 docker
