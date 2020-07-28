@@ -81,14 +81,6 @@ if filereadable("/home/richard/.vim/pack/coc/start/coc.nvim-release/LICENSE.md")
     nmap <silent> gr <Plug>(coc-references)
 endif
 
-" Coc Extensions "
-
-let g:coc_global_extensions=[
-    \ 'coc-clangd',
-    \ 'coc-java',
-    \ 'coc-json'
-    \]
-
 " gruvbox "
 if filereadable("/home/richard/.vim/pack/default/start/gruvbox/README.md")
     colorscheme gruvbox
