@@ -45,7 +45,8 @@ if filereadable("/home/richard/.vim/pack/coc/start/coc.nvim-release/LICENSE.md")
     let g:coc_global_extensions=[
         \ 'coc-clangd',
         \ 'coc-java',
-        \ 'coc-json'
+        \ 'coc-json',
+        \ 'coc-python'
         \]
 
     hi CocInfoFloat guifg=#000000 guibg=#FFFFFF
