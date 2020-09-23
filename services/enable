@@ -1,9 +1,0 @@
-systemd-networkd.service
-systemd-resolved.service
-dnsmasq.service
-ebtables.service
-iptables.service
-sshd.service
-libvirtd.service
-iwd.service
-lenovo_fix.service
