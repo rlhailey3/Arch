@@ -1,7 +1,0 @@
-#!/usr/bin/pulseaudio -nF
-
-# Include the default global config
-.include /etc/pulse/default.pa
-
-# Switch default audio device on connection
-load-module module-switch-on-connect
