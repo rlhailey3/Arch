@@ -1,0 +1,80 @@
+# base install
+base
+base-devel
+linux
+linux-firmware
+man-db
+man-pages
+fwupd
+vim
+bash-completion
+openssh
+tmux
+networkmanager
+firewalld
+zip
+uzip
+
+# cockpit
+udisks2
+packagekit
+pcp
+cockpit
+cockpit-pcp
+cockpit-machines
+cockpit-docker
+cockpit-dashboard
+
+# programming
+nodejs
+npm
+git
+python
+jdk-openjdk
+clang
+valgrind
+gdb
+
+# swaywm
+sway
+swaylock
+swayidle
+swaybg
+termite
+pulseaudio
+waybar
+light
+grim
+slurp
+wofi
+wl-clipboard
+powerline
+ttf-ibm-plex
+ttf-dejavu
+otf-font-awesome
+powerline
+powerline-fonts
+powerline-vim
+firefox
+
+# virtualization
+qemu
+ovmf
+libvirt
+ebtables
+dnsmasq
+bridge-utils
+dmidecode
+samba
+docker
+virt-install
+virt-manager
+
+# T480s laptop
+intel-ucode
+acpi
+mesa
+throttled
+vulkan-intel
+
+# end
