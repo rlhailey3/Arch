@@ -1,4 +1,5 @@
 # base
+sshd.service
 NetworkManager.service
 firewalld.serve
 
