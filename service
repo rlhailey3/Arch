@@ -1,0 +1,13 @@
+# base
+NetworkManager.service
+firewalld.serve
+
+# cockpit
+cockpit.socket
+
+# virtualization
+dnsmasq.service
+libvirtd.service
+
+# laptop
+lenovo_fix.service
