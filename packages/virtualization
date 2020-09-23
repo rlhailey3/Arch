@@ -1,9 +1,0 @@
-qemu
-ovmf
-libvirt
-ebtables
-dnsmasq
-bridge-utils
-dmidecode
-samba
-docker
